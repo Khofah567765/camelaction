@@ -19,7 +19,6 @@ jobs:
 
       # 2. Checkout Repository Private tempat camel.py berada menggunakan GH_PAT
       - name: Checkout Private Core
-        if: "${{ secrets.GH_PAT != '' }}"
         uses: actions/checkout@v4
         with:
           repository: ${{ secrets.PRIVATE_REPO_NAME || 'Khofah567765/camel' }}
