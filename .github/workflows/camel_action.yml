@@ -1,0 +1,63 @@
+name: Sync Camel Sports Live Streams to Firebase
+
+on:
+  schedule:
+    # Berjalan otomatis setiap 20 menit
+    - cron: '*/20 * * * *'
+  workflow_dispatch: # Pemicu manual "Run workflow" di tab Actions GitHub
+
+jobs:
+  sync-camel:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # 1. Checkout Repository Public (camel action)
+      - name: Checkout Public Repository
+        uses: actions/checkout@v4
+
+      # 2. Checkout Repository Private tempat camel.py berada menggunakan GH_PAT
+      - name: Checkout Private Core
+        if: "${{ secrets.GH_PAT != '' }}"
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.PRIVATE_REPO_NAME || 'Khofah567765/camel' }}
+          token: ${{ secrets.GH_PAT }}
+          path: private_core
+
+      # 3. Setup Python 3.11
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 4. Install Dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pillow firebase-admin
+
+      # 5. Jalankan camel.py (dari private_core atau root) & Push ke Firebase
+      - name: Run Camel Scraper & Push to Firebase
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL || 'https://events-64a83-default-rtdb.asia-southeast1.firebasedatabase.app' }}
+          CAMEL_CATEGORY_ID: ${{ secrets.CAMEL_CATEGORY_ID || '-camelSports' }}
+          CAMEL_CATEGORY_NAME: ${{ secrets.CAMEL_CATEGORY_NAME || 'CAMEL SPORTS' }}
+          CAMEL_CATEGORY_ORDER: ${{ secrets.CAMEL_CATEGORY_ORDER || '4' }}
+        run: |
+          if [ -f "private_core/camel.py" ]; then
+            python private_core/camel.py
+          else
+            python camel.py
+          fi
+
+      # 6. Simpan banner_cache.json agar banner yang sudah di-upload tidak dibuat ulang
+      - name: Commit & Push Banner Cache
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add banner_cache.json camel_streams.json || true
+          git commit -m "Auto Update: Camel Sports banner cache & streams" || echo "Tidak ada perubahan cache baru"
+          git push || true
