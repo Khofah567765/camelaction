@@ -2,7 +2,7 @@
   "camel_l7oqdehgkekkr51": {
     "channelName": "Bayer 04 Leverkusen vs SC Paderborn 07",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 2nd Half (3-0) | Bundesliga",
+    "description": "🔴 LIVE 2nd Half (4-0) | Bundesliga",
     "leagueName": "Bundesliga",
     "sportName": "Sepak Bola",
     "team1Name": "Bayer 04 Leverkusen",
@@ -23,7 +23,7 @@
   "camel_vjxm8ghe62d4r6o": {
     "channelName": "1. FC Union Berlin vs RB Leipzig",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 2nd Half (1-1) | Bundesliga",
+    "description": "🔴 LIVE 2nd Half (1-2) | Bundesliga",
     "leagueName": "Bundesliga",
     "sportName": "Sepak Bola",
     "team1Name": "1. FC Union Berlin",
@@ -65,7 +65,7 @@
   "camel_1l4rjnh9p016m7v": {
     "channelName": "Coventry City vs Crystal Palace",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (2-1) | English Premier League",
+    "description": "🔴 LIVE 1st Half (2-2) | English Premier League",
     "leagueName": "English Premier League",
     "sportName": "Sepak Bola",
     "team1Name": "Coventry City",
@@ -86,7 +86,7 @@
   "camel_4jwq2ghndjokm0v": {
     "channelName": "AFC Bournemouth vs Nottingham Forest",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (1-0) | English Premier League",
+    "description": "🔴 LIVE 1st Half (2-0) | English Premier League",
     "leagueName": "English Premier League",
     "sportName": "Sepak Bola",
     "team1Name": "AFC Bournemouth",
@@ -107,7 +107,7 @@
   "camel_8yomo4h1jjn8q0j": {
     "channelName": "Aston Villa vs Sunderland",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (0-0) | English Premier League",
+    "description": "🔴 LIVE Half Time (0-0) | English Premier League",
     "leagueName": "English Premier League",
     "sportName": "Sepak Bola",
     "team1Name": "Aston Villa",
@@ -149,7 +149,7 @@
   "camel_l7oqdehgzknor51": {
     "channelName": "Tottenham Hotspur vs Ipswich Town",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (1-0) | English Premier League",
+    "description": "🔴 LIVE Half Time (1-0) | English Premier League",
     "leagueName": "English Premier League",
     "sportName": "Sepak Bola",
     "team1Name": "Tottenham Hotspur",
@@ -170,7 +170,7 @@
   "camel_23xmvkh6jd31qg8": {
     "channelName": "West Ham United vs Preston North End",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (0-1) | English Football League Championship",
+    "description": "🔴 LIVE Half Time (0-1) | English Football League Championship",
     "leagueName": "English Football League Championship",
     "sportName": "Sepak Bola",
     "team1Name": "West Ham United",
@@ -191,7 +191,7 @@
   "camel_zp5rzghg9zjkq82": {
     "channelName": "Wolverhampton Wanderers vs Charlton Athletic",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (0-0) | English Football League Championship",
+    "description": "🔴 LIVE Half Time (0-0) | English Football League Championship",
     "leagueName": "English Football League Championship",
     "sportName": "Sepak Bola",
     "team1Name": "Wolverhampton Wanderers",
