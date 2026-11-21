@@ -2,7 +2,7 @@
   "camel_ednm9wh5kw0nryo": {
     "channelName": "New England Revolution vs Philadelphia Union",
     "contentType": "event_solo",
-    "description": "🔴 LIVE Half Time (1-0) | United States Major League Soccer",
+    "description": "🔴 LIVE 2nd Half (1-0) | United States Major League Soccer",
     "leagueName": "United States Major League Soccer",
     "sportName": "Sepak Bola",
     "team1Name": "New England Revolution",
@@ -44,7 +44,7 @@
   "camel_23xmvkh6zkewqg8": {
     "channelName": "AS Monaco vs AJ Auxerre",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (0-0) | French Ligue 1",
+    "description": "🔴 LIVE 1st Half (0-1) | French Ligue 1",
     "leagueName": "French Ligue 1",
     "sportName": "Sepak Bola",
     "team1Name": "AS Monaco",
@@ -86,7 +86,7 @@
   "camel_y0or5jh8dkyvqwz": {
     "channelName": "KV Mechelen vs Club Brugge",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (0-0) | Belgian Pro League",
+    "description": "🔴 LIVE 1st Half (0-2) | Belgian Pro League",
     "leagueName": "Belgian Pro League",
     "sportName": "Sepak Bola",
     "team1Name": "KV Mechelen",
@@ -149,7 +149,7 @@
   "camel_ednm9whw4exjryo": {
     "channelName": "Real Madrid vs RC Celta de Vigo",
     "contentType": "event_solo",
-    "description": "🔴 LIVE 1st Half (0-0) | Spanish La Liga",
+    "description": "🔴 LIVE 1st Half (0-1) | Spanish La Liga",
     "leagueName": "Spanish La Liga",
     "sportName": "Sepak Bola",
     "team1Name": "Real Madrid",
