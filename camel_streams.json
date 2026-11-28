@@ -2,7 +2,7 @@
   "camel_4wyrn4h6kpdpq86": {
     "channelName": "Bali United vs Bhayangkara Presisi Indonesia FC",
     "contentType": "event_solo",
-    "description": "🔴 LIVE Half Time (1-0) | Indonesian Super League",
+    "description": "🔴 LIVE 2nd Half (2-0) | Indonesian Super League",
     "leagueName": "Indonesian Super League",
     "sportName": "Sepak Bola",
     "team1Name": "Bali United",
@@ -23,7 +23,7 @@
   "camel_l5ergph49xv1r8k": {
     "channelName": "PSIM Yogyakarta vs Persatuan Sepakbola Indonesia Jepara",
     "contentType": "event_solo",
-    "description": "🔴 LIVE Half Time (1-0) | Indonesian Super League",
+    "description": "🔴 LIVE 2nd Half (1-0) | Indonesian Super League",
     "leagueName": "Indonesian Super League",
     "sportName": "Sepak Bola",
     "team1Name": "PSIM Yogyakarta",
@@ -44,7 +44,7 @@
   "camel_dn1m1ghlwynzmoe": {
     "channelName": "Isenmulang Kalteng vs PSS Sleman",
     "contentType": "event_solo",
-    "description": "🔴 LIVE Half Time (3-1) | Indonesian Super League",
+    "description": "🔴 LIVE 2nd Half (3-1) | Indonesian Super League",
     "leagueName": "Indonesian Super League",
     "sportName": "Sepak Bola",
     "team1Name": "Isenmulang Kalteng",
@@ -65,7 +65,7 @@
   "camel_jw2r09hkoyxorz8": {
     "channelName": "PSM Makassar vs Dewa United FC",
     "contentType": "event_solo",
-    "description": "🔴 LIVE Half Time (0-2) | Indonesian Super League",
+    "description": "🔴 LIVE 2nd Half (0-2) | Indonesian Super League",
     "leagueName": "Indonesian Super League",
     "sportName": "Sepak Bola",
     "team1Name": "PSM Makassar",
@@ -380,8 +380,8 @@
   "camel_2y8m4zh5y8npql0": {
     "channelName": "FC Arouca vs Rio Ave",
     "contentType": "event_solo",
-    "description": "28/11 22:30 WIB | Portuguese Primera Liga",
-    "leagueName": "Portuguese Primera Liga",
+    "description": "28/11 22:30 WIB | Portuguese Primeria Liga",
+    "leagueName": "Portuguese Primeria Liga",
     "sportName": "Sepak Bola",
     "team1Name": "FC Arouca",
     "team2Name": "Rio Ave",
@@ -401,8 +401,8 @@
   "camel_x7lm7phjywn2m2w": {
     "channelName": "Moreirense vs Santa Clara",
     "contentType": "event_solo",
-    "description": "28/11 22:30 WIB | Portuguese Primera Liga",
-    "leagueName": "Portuguese Primera Liga",
+    "description": "28/11 22:30 WIB | Portuguese Primeria Liga",
+    "leagueName": "Portuguese Primeria Liga",
     "sportName": "Sepak Bola",
     "team1Name": "Moreirense",
     "team2Name": "Santa Clara",
@@ -548,8 +548,8 @@
   "camel_dj2ryohl6g54q1z": {
     "channelName": "Viseu vs Alverca",
     "contentType": "event_solo",
-    "description": "29/11 01:00 WIB | Portuguese Primera Liga",
-    "leagueName": "Portuguese Primera Liga",
+    "description": "29/11 01:00 WIB | Portuguese Primeria Liga",
+    "leagueName": "Portuguese Primeria Liga",
     "sportName": "Sepak Bola",
     "team1Name": "Viseu",
     "team2Name": "Alverca",
@@ -737,8 +737,8 @@
   "camel_y0or5jh8y3jdqwz": {
     "channelName": "Vitoria Guimaraes vs CF Estrela Amadora SAD",
     "contentType": "event_solo",
-    "description": "29/11 03:30 WIB | Portuguese Primera Liga",
-    "leagueName": "Portuguese Primera Liga",
+    "description": "29/11 03:30 WIB | Portuguese Primeria Liga",
+    "leagueName": "Portuguese Primeria Liga",
     "sportName": "Sepak Bola",
     "team1Name": "Vitoria Guimaraes",
     "team2Name": "CF Estrela Amadora SAD",
